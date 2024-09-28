@@ -22,7 +22,7 @@
     "watch": " npx tsc -w",
     "dev": "nodemon --inspect ./dist/server.js",
     "build": "tsc",
-    "start":"node ./dist/server.js"
+    "start":"node dist/server.js"
   },
   "eslintConfig": {
     "extends": [
