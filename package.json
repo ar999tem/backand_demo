@@ -18,8 +18,8 @@
         "typescript": "^5.6.2"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js",
+    "build": "npx tsc",
+    "start": "node ./dist/server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": " npx tsc -w",
